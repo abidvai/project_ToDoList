@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:background="#0277BD"
         android:orientation="horizontal">
 
         <EditText
@@ -24,12 +25,13 @@
             android:inputType="text"
             android:textColorHint="@color/design_default_color_on_secondary" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="4"
-            android:text="ADD" />
+            android:text="ADD"
+            android:background="@drawable/custom_btn"/>
 
     </LinearLayout>
 
@@ -37,5 +39,6 @@
         android:id="@+id/List"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="4" />
+        android:layout_weight="4"
+        android:background="#BC2E7D32" />
 </LinearLayout>
